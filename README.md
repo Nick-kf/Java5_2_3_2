@@ -26,11 +26,17 @@
    **Фактический результат:** появляется ошибка RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT
 
 >  [INFO] --- spotbugs-maven-plugin:3.1.12.2:check (default-cli) @ bonus-calculator ---
+
 >  [INFO] BugInstance size is 1
+
 >  [INFO] Error size is 0
+
 >  [INFO] Total bugs: 1
+
 >  [ERROR] Return value of BonusService.calculate(long, boolean) ignored, but method has no side effect [Main] At Main.java:[line 8] RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT
+
 >  [INFO] 
+
 >  To see bug detail using the Spotbugs GUI, use the following command "mvn spotbugs:gui"
 
  
